@@ -32,8 +32,7 @@ class UsersController < ApplicationController
           flash[:success] = "Welcome to the family!"
           redirect_to @user
       else
-        format.html { render :new }
-        format.json { render json: @user.errors, status: :unprocessable_entity }
+        render 'new'
       end
     
   end
