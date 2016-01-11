@@ -14,8 +14,9 @@ class UsersController < ApplicationController
   # GET /users/1.json
   def show
     # @user = User.paginate(page: params[:page])
-        @user = User.find(params[:id])
-         redirect_to root_url and return unless @user.activated?
+    @user = User.find(params[:id])
+    redirect_to root_url and return unless @user.activated?
+    @microposts = @user.microposts.paginate(page: params[:page])
 
   end
 
