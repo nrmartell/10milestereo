@@ -2,11 +2,11 @@
 
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
-    <%= link_to "I HEART FRUIT....BEER", root_path, id: "logo" %>
+    <%= link_to "10 Mile Stereo", root_path, id: "logo" %>
+    <img class="img-responsive" src="app/assets/images/stereologo.png">
     <nav>
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home", root_path %></li>
-        <li><%= link_to "Help", help_path %></li>
         <% if logged_in? %>
         
           <li><%= link_to "Users", users_path %></li>

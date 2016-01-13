@@ -1,5 +1,5 @@
 Hello <%= @user.name %>
 
-Welcome to Lets Tacoboutit!!! Click on the link below to activate your account:
+Welcome to 10 Mile Stereo!!! Click on the link below to activate your account:
 
 <%= edit_account_activation_url(@user.activation_token, email: @user.email)%>

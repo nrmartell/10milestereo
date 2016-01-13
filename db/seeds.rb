@@ -9,7 +9,7 @@
 
 # Users
 User.create!(name:  "Natalie",
-             email: "admin@tacoboutit.com",
+             email: "admin@10milestereo.com",
              password:              "foobar",
              password_confirmation: "foobar",
              admin:     true,
