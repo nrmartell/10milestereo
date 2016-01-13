@@ -77,14 +77,6 @@ p {
   }
 }
 
-/*#logobox {
- background-image: url("/images/stereologo.png");
-  background-repeat: no-repeat;
-    background-position: center;
-  margin-top: 2%;
-  box-shadow: 3px 3px 5px #808080;
-}*/
-
 /* footer */
 
 footer {
@@ -255,6 +247,7 @@ input {
   list-style: none;
   padding: 0;
   li {
+    overflow: auto;
     padding: 10px 0;
     border-top: 1px solid #e8e8e8;
   }
