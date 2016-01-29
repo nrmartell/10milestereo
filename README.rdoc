@@ -1,5 +1,7 @@
 10 Mile Stereo
 
-This application is for music lovers everywhere. A microblog where users can post music reviews, music news, even pictures. Even follow other users that post cool stuff.
-This application was built on Ruby on Rails, with javascript, HTML, CSS and deployed to Heroku. 
+This application is for music lovers everywhere. A microblog where users can post music reviews, music news, even pictures. You can even follow other users that post cool stuff.
+This application was built on Ruby on Rails, with javascript, HTML, CSS and deployed to Heroku.
+Sendgrid was used to send activation and password Reset Emails.
+Amazon Web Services was utilized to host user picture uploads. 
 Users must have an account to view site, along with a valid email address to activate account login.
